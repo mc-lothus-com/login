@@ -1,0 +1,12 @@
+name: login
+version: '${version}'
+main: com.mclothus.login.AuthPlugin
+author: Toddy
+depend:
+  - core
+commands:
+  login:
+    aliases: [logar, auth]
+  register:
+    aliases: [registrar, rg]
+  setar:
